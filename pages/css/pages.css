@@ -13,6 +13,30 @@ body {
 
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
+    float: right;
+    width: 65%;
+    margin-top: 50px;
 }
+
+
+h1, h2, h3, p {
+    font-family: 'Raleway', sans-serif;
+    color: #4C4645;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin: 50px 350px;
+    border-width: 50px;
+    border-color:#7C8C69;
+    border-style: solid;
+    background-color:#7C8C69;
+}
+
+
+
 
 /* Voeg jouw css hieraan toe */
