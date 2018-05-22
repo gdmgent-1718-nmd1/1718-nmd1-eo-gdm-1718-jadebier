@@ -19,6 +19,23 @@ body {
     font-size: 17pt;
 }
 
+.cheers{
+    width: 1000px;
+    position: absolute;
+    z-index: -1;
+}
+
+.h1intro{
+    color: white;
+    padding-bottom: 50px;
+    size: 50pt;
+    padding-left: 50px;
+}
+
+.introtekst{
+    padding-top: 600px;
+    
+}
 /*Concurrentieanalyse*/
 
 .werchter, .dour, .bs1, .bs2 {
@@ -30,7 +47,6 @@ body {
 }
 
 .pagina{
-    width: 1280px;
     margin: 0 auto;
 }
 
@@ -160,16 +176,18 @@ p {
 }
 
 .menu{
-    display:flex;
+    position: fixed;
+    display: flex;
     background-color: rgba(130,144,95,1);
     padding: 30px;
     padding-left: 20px;
     margin-top: 20px;
 
-        width: 100vw;
+        overflow: hidden;
+       width: 100%;
         position: relative;
         margin-left: -52vw;
-        left: 50%;
+        left: 50%;*/
        }
 
 
@@ -180,7 +198,7 @@ p {
     font-family: 'Leckerli One', cursive; 
     padding: 10px;
     padding-left: 20px;
-    padding-right: 250%;
+    padding-right: 200px;
    
 }
 
